@@ -78,6 +78,6 @@ Latency: fast question-to-answer time
 | Frontend | David Villarreal |
 | Data ingestion & Cleaning | Tuan Dinh |
 | Chunking & Vectorization | Amen Akploh |
-| Retrieval & RAG Chain | Yousef Abduas |
+| Retrieval & RAG Chain | Yousef Abuadas |
 | Backend API | William Sancho |
 | QA, Evaluation & Demo	| Nate Calderon | 
