@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from 'react'
 import { ArrowUp, BookOpen, Check, ChevronDown, Dice5, Menu, Plus, Search, Sparkles, UserRound, X } from 'lucide-react'
-import { askQuestion } from './services/api'
+import { askQuestion, clearChatSession } from './services/api'
 import type { ChatMessage, Source } from './types/chat'
 
 const examples = [
@@ -20,11 +20,14 @@ function SourceCard({ source, index }: { source: Source; index: number }) {
 function App() {
   const [messages, setMessages] = useState<ChatMessage[]>([])
   const [question, setQuestion] = useState('')
+  const [sessionId, setSessionId] = useState(() => crypto.randomUUID())
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [menuOpen, setMenuOpen] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
-  useEffect(() => bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' }), [messages, loading])
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' })
+  }, [messages, loading])
 
   async function sendQuestion(text: string) {
     const clean = text.trim()
@@ -34,7 +37,7 @@ function App() {
     setMessages(current => [...current, { id: crypto.randomUUID(), role: 'user', content: clean }])
     setLoading(true)
     try {
-      const result = await askQuestion(clean)
+      const result = await askQuestion(clean, sessionId)
       setMessages(current => [...current, { id: crypto.randomUUID(), role: 'assistant', content: result.answer, sources: result.sources }])
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : 'Could not reach the chatbot API.')
@@ -44,7 +47,13 @@ function App() {
   function onInputKeyDown(event: KeyboardEvent<HTMLTextAreaElement>) {
     if (event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); submit() }
   }
-  function newChat() { setMessages([]); setQuestion(''); setError('') }
+  function newChat() {
+    void clearChatSession(sessionId)
+    setSessionId(crypto.randomUUID())
+    setMessages([])
+    setQuestion('')
+    setError('')
+  }
 
   return <div className="app-shell">
     <aside className={`sidebar ${menuOpen ? 'sidebar-open' : ''}`}>

@@ -64,7 +64,19 @@ uvicorn backend.main:app --reload
 
 # Run the frontend (see frontend/README for details)
 
-Copy .env.example to .env and fill in any needed settings. Never commit .env.
+Copy `.env.example` to `.env` and provide every listed setting. The backend fails at
+startup when a required value is missing or blank. Never commit `.env`.
+
+### Local RAG setup
+
+The backend uses Ollama for both chat generation and embeddings. Install and start
+Ollama, then download the configured models before starting the API:
+
+```bash
+ollama pull llama3.2:3b
+ollama pull nomic-embed-text
+cp .env.example .env
+```
 
 Quality Goals
 Natural responses: answers are understandable and realistic
