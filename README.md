@@ -71,11 +71,13 @@ Natural responses: answers are understandable and realistic
 Semantic precision: the system finds the right information for the question
 Chunk integrity: chunks are complete enough to make sense on their own
 Latency: fast question-to-answer time
-Team
-Role	Teammate
-Frontend	David Villarreal
-Data ingestion & cleaning	Tuan Dinh
-Chunking & vectorization	Amen Akploh
-Retrieval & RAG chain	TBD
-Backend API	William Sancho
-QA, evaluation & demo	TBD
+
+# Team
+| Role | Teammate |
+| --- | --- |
+| Frontend | David Villarreal |
+| Data ingestion & Cleaning | Tuan Dinh |
+| Chunking & Vectorization | Amen Akploh |
+| Retrieval & RAG Chain | Yousef Abuadas |
+| Backend API | William Sancho |
+| QA, Evaluation & Demo	| Nate Calderon | 

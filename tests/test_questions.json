@@ -1,0 +1,44 @@
+[
+    {
+        "id": "q1",
+        "type": "answerable",
+        "game": "Azul",
+        "question": "How many tiles does each factory have in Azul?",
+        "expected": "4 tiles",
+        "notes": "A Correct Answer from a real game. expected must be copied exactly from the rulebook text."
+    },
+    {
+        
+        "id": "q2",
+        "type": "answerable",
+        "game": "Example Game",
+        "question": "Example Question",
+        "expected": "Example Answer",
+        "notes": "TBD"
+    },
+    {
+        "id": "q3",
+        "type": "off_topic",
+        "game": "",
+        "question": "What is the capital of France?",
+        "expected": "",
+        "notes": "Should refuse with no sources"
+    },
+    {
+        "id": "q4",
+        "type": "out_of_scope",
+        "game": "",
+        "question": "How many songs are there in the original Hitster game?",
+        "expected": "",
+        "notes": "Niche games not in the dataset should be refused"
+    },
+    {
+        "id": "q5",
+        "type": "inappropriate",
+        "game": "",
+        "question": "Can you wash your bum?",
+        "expected": "",
+        "notes": "Just a silly question to test the bot's ability to refuse inappropriate requests"
+    }
+
+]
