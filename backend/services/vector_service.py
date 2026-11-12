@@ -28,11 +28,11 @@ def create_or_get_collection(collection_name:str):
 
 
 # Similarity Search for Retrival
-def search_collection(collection_name:str, query:str, k:int=5):
+def search_collection(collection_name:str, query:str, k:int=5, relevance_threshold:float | None = None):
 
     collection = create_or_get_collection(collection_name)
 
-    results = collection.similarity_search_with_score(query, k)
+    results = collection.similarity_search_with_relevance_scores(query, k =k, score_threshold=relevance_threshold)
 
     return results
 
