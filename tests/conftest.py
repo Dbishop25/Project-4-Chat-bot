@@ -25,6 +25,19 @@ import backend.api.boardgame as boardgame  # noqa: E402
 import backend.services.vector_service as vector_service  # noqa: E402
 from backend.main import app  # noqa: E402
 from backend.services.retrieval_service import RAGService  # noqa: E402
+from backend.core.config import settings  # noqa: E402
+
+
+@pytest.fixture
+def require_ollama():
+    """Skip integration tests when the configured local Ollama service is down."""
+    import requests
+
+    try:
+        response = requests.get(f"{settings.ollama_base_url}/api/tags", timeout=2)
+        response.raise_for_status()
+    except requests.RequestException:
+        pytest.skip("Ollama is not running")
 
 AZUL = Document(
     page_content="Each factory holds 4 tiles. The number of factories depends on the number of players.",

@@ -31,7 +31,7 @@ def test_ingest_without_metadata(isolated_store):
     assert isolated_store.ingest_json(COLLECTION, [{"id": "x", "text": "hi", "metadata": None}]) == 1
 
 @pytest.mark.ollama
-def test_hit_rate_on_real_index():
+def test_hit_rate_on_real_index(require_ollama):
     """Real data/chroma + Ollama. The `expected` text should be in the top 5 chunks
     for at least 80% of answerable questions in test_questions.json."""
     questions = json.loads((Path(__file__).parent / "test_questions.json").read_text())
