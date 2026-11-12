@@ -154,18 +154,26 @@ class RAGService:
         metadata = getattr(document, "metadata", {})
         return metadata if isinstance(metadata, dict) else {}
 
+    @staticmethod
+    def _display_title(metadata: dict[str, Any], index: int) -> Any:
+        game = metadata.get("game")
+        if isinstance(game, str):
+            game = re.sub(r"\s+rules$", "", game, flags=re.IGNORECASE).strip()
+        return (
+            game
+            or metadata.get("title")
+            or metadata.get("source")
+            or metadata.get("filename")
+            or metadata.get("source_id")
+            or metadata.get("document_id")
+            or f"Source {index}"
+        )
+
     def _make_context(self, matches: list[tuple[Any, float]]) -> str:
         sections = []
         for index, (document, _score) in enumerate(matches, start=1):
             metadata = self._document_metadata(document)
-            title = (
-                metadata.get("title")
-                or metadata.get("source")
-                or metadata.get("filename")
-                or metadata.get("source_id")
-                or metadata.get("document_id")
-                or f"Source {index}"
-            )
+            title = self._display_title(metadata, index)
             page = metadata.get("page", metadata.get("page_number"))
             source_details = f"Title: {title}"
             if page is not None:
@@ -178,14 +186,7 @@ class RAGService:
     @staticmethod
     def _source_payload(document: Any, index: int) -> dict[str, Any]:
         metadata = RAGService._document_metadata(document)
-        title = (
-            metadata.get("title")
-            or metadata.get("source")
-            or metadata.get("filename")
-            or metadata.get("source_id")
-            or metadata.get("document_id")
-            or f"Source {index}"
-        )
+        title = RAGService._display_title(metadata, index)
         source: dict[str, Any] = {
             "title": str(title),
             "content": RAGService._document_text(document),

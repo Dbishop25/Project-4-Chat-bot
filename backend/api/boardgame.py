@@ -24,6 +24,10 @@ class IngestData(BaseModel):
     metadata:Any = None # Lazy, didn't wanna make a whole new object
 
 
+class IngestCollectionRequest(BaseModel):
+    collection_name: str
+
+
 class ChatRequest(BaseModel):
     question: str
     session_id: str
@@ -55,15 +59,10 @@ async def submit_json(items:list[IngestData]):
 
 
 @router.post("/submit_text")
-async def submit_text(text:IngestData):
+async def submit_text(request: IngestCollectionRequest):
 
 
-    ingested_items = ingest_text(
-        collection_name="collection_text",
-        text=text.text,
-        source_id=text.id,
-        metadata=text.metadata if isinstance(text.metadata, dict) else None,
-    )
+    ingested_items = ingest_text(collection_name=request.collection_name)
 
     return {"ingested_items": ingested_items}
 

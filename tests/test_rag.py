@@ -1,4 +1,5 @@
 import pytest
+from types import SimpleNamespace
 
 from backend.services.retrieval_service import ABSTENTION, RAGService, RAGServiceError
 from tests.conftest import AZUL, FakeLLM
@@ -21,6 +22,16 @@ def test_answer_includes_cited_source(make_service):
     result = service.answer("tiles?")
     assert result["answer"] == "Each factory holds 4 tiles [1]."
     assert result["sources"] == [{"title": "Azul Rules", "content": AZUL.page_content, "page": 3}]
+
+def test_source_title_prefers_game_name_over_absolute_path():
+    document = SimpleNamespace(
+        page_content="Factory rules.",
+        metadata={"game": "Azul Rules", "source": r"C:\games\cleaned\azul_factory_rules.md"},
+    )
+
+    source = RAGService._source_payload(document, 1)
+
+    assert source["title"] == "Azul"
 
 @pytest.mark.parametrize("reply", ["This answer has no citation.", "I don't know."])
 def test_uncited_reply_is_refused(make_service, reply):

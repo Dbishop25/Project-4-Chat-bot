@@ -71,5 +71,21 @@ def test_submit_json(client, monkeypatch):
     items = [{"id": "a", "text": "Each factory display holds 4 tiles."}]
     assert client.post("/boardgame/submit_json", json=items).json() == {"ingested_items": 1}
 
+
+def test_submit_text_passes_collection_name(client, monkeypatch):
+    received = {}
+
+    def fake_ingest_text(collection_name):
+        received["collection_name"] = collection_name
+        return 3
+
+    monkeypatch.setattr(boardgame, "ingest_text", fake_ingest_text)
+    response = client.post(
+        "/boardgame/submit_text", json={"collection_name": "collection_text"}
+    )
+
+    assert response.json() == {"ingested_items": 3}
+    assert received["collection_name"] == "collection_text"
+
 # LLM Tests
 

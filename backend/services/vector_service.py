@@ -21,6 +21,7 @@ def create_or_get_collection(collection_name:str):
             embedding_function=EMBEDDING_MODEL
         )
 
+
     return vector_store[collection_name]
 
 
@@ -41,9 +42,7 @@ def search_collection(collection_name:str, query:str, k:int=5, relevance_thresho
 
 
 # To ingest documents (txt.) into chunks and store it into a collection.
-def ingest_text(collection_name:str, text:str, source_id:str):
-
-
+def ingest_text(collection_name: str):
     from .chunking_service import ingest_md
     return ingest_md(collection_name)
 

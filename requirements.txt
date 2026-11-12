@@ -6,3 +6,6 @@ langchain-ollama
 langchain-text-splitters
 python-dotenv
 requests
+langchain-community
+unstructured[md]
+markdown

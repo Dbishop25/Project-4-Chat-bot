@@ -1,23 +1,53 @@
-import backend.services.vector_service as vector_service
+from pathlib import Path
 
-LONG_TEXT = " ".join(f"word{i}" for i in range(300))
+from langchain_core.documents import Document
 
-def make_chunks(monkeypatch, text):
-    """Run ingest_text but capture the chunks instead of saving them."""
-    saved = []
-    monkeypatch.setattr(vector_service, "ingest_json", lambda name, items: saved.extend(items) or len(items))
-    vector_service.ingest_text("t", text, "azul")
-    return saved
+import backend.services.chunking_service as chunking_service
 
-def test_long_text_is_split_into_small_chunks(monkeypatch):
-    chunks = make_chunks(monkeypatch, LONG_TEXT)
-    assert len(chunks) > 1
-    assert all(len(chunk["text"]) <= 300 for chunk in chunks)
 
-def test_chunk_ids_are_numbered(monkeypatch):
-    chunks = make_chunks(monkeypatch, LONG_TEXT)
-    assert [chunk["id"] for chunk in chunks] == [f"azul_chunk_{i}" for i in range(len(chunks))]
+def test_ingest_md_splits_by_headers_and_replaces_source_docs(monkeypatch, tmp_path):
+    markdown_path = tmp_path / "azul.md"
+    markdown_path.write_text(
+        "# Azul\n\n## Gameplay\nDraft tiles.\n\n## Scoring\nScore adjacent tiles.",
+        encoding="utf-8",
+    )
 
-def test_no_text_is_lost(monkeypatch):
-    chunks = make_chunks(monkeypatch, LONG_TEXT)
-    assert set(" ".join(chunk["text"] for chunk in chunks).split()) == set(LONG_TEXT.split())
+    class FakeVectorStore:
+        def __init__(self):
+            self.records = {"old-azul": {"source": "azul.md"}}
+            self.added = []
+            self.deleted = []
+
+        def get(self, *, include):
+            return {
+                "ids": list(self.records),
+                "metadatas": list(self.records.values()),
+            }
+
+        def delete(self, *, ids):
+            self.deleted.extend(ids)
+            for document_id in ids:
+                self.records.pop(document_id, None)
+
+        def add_documents(self, *, documents):
+            self.added.extend(documents)
+
+    store = FakeVectorStore()
+    monkeypatch.setattr(chunking_service, "CLEANED_DIR", tmp_path)
+    monkeypatch.setattr(
+        chunking_service, "create_or_get_collection", lambda name: store
+    )
+
+    assert chunking_service.ingest_md("collection_text") == 2
+    assert store.deleted == ["old-azul"]
+    assert [document.metadata["h2"] for document in store.added] == [
+        "Gameplay",
+        "Scoring",
+    ]
+    assert all(document.metadata["game"] == "Azul" for document in store.added)
+    assert all(document.metadata["source"] == "azul.md" for document in store.added)
+    assert all(
+        not Path(document.metadata["source"]).is_absolute()
+        for document in store.added
+    )
+    assert all(isinstance(document, Document) for document in store.added)
