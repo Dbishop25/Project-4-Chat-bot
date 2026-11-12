@@ -39,7 +39,9 @@ _ANSWER_PROMPT = ChatPromptTemplate.from_messages(
             "documentation's scope, or not supported by the retrieved chunks, respond "
             'exactly: "I will not answer that." For each factual claim, cite supporting chunks '
             "using their labels such as [S1]. Do not cite a chunk that does not support "
-            "the claim.",
+            "the claim." "End every sentence with the label of the chunk that supports it, like [S1] or [S2]. "
+            "Answers without these labels are rejected. "'Example: "Kings can castle once per game [S1]. '
+            'The rook moves to the square the king crossed [S1]."',
         ),
         (
             "human",
