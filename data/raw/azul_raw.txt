@@ -1,0 +1,45 @@
+Azul (Portuguese for "blue") is an abstract strategy board game designed by Michael Kiesling and released by Plan B Games in 2017. Based on Portuguese tiles called azulejos, in Azul players collect sets of similarly colored tiles which they place on their player board. When a row is filled, one of the tiles is moved into a square pattern on the right side of the player board, where it garners points depending on where it is placed in relation to other tiles on the board.
+
+
+== Gameplay ==
+
+From two to four players collect tiles to fill up a 5x5 squares player board. Players collect tiles by taking all the tiles of one colour from a repository, or from the centre of the table, and placing them in a row, taking turns until all the tiles for that round are taken. At that point, one tile from every filled row moves over to each player's 5x5 board, while the rest of the tiles in the filled row are discarded. Each tile scores based on where it is placed in relation to other tiles on the board. Rounds continue until at least one player has made a row of tiles all the way across their 5x5 board.  Additional points are awarded at the end of the game for each complete row or column, and for each instance of all five tiles of the same colour being collected. 
+The basic game dictates where tiles of each color go on their player board, while an advanced version allows players to place them anywhere.
+
+
+== Reception ==
+Keith Law, writing for Paste Magazine, said "The theme doesn't really tie into or matter for the game play, but the artwork is just fantastic and...will give Azul a ton of shelf appeal in a market where maybe publishers don't pay as much attention to that aspect of marketing."
+Nate Anderson of Ars Technica described it as "an ideal weeknight game, or a game night opener, or a family title." Wirecutter described it as having "slightly tricky rules" but is "easy to play" with "beautiful art".
+Emily VanDerWerff, writing for Vox, said "Azul has made the leap from hardcore hobbyist circles to the shelves of Target and other stores where it might be selected by grandmas shopping for their grandkids...absolutely every aspect of playing the game is at once instantly understandable and agreeably fun – right down to how those tiles feel in your hand."
+
+
+== Awards and nominations ==
+Azul has won a number of board gaming awards and received numerous nominations:
+
+2018 Spiel des Jahres award
+2018 Origins Award for Best Family Game and Fan Favorite
+2018 Dice Tower Award for Best Family Game
+2018 As d'Or – Jeu de l'Année Winner
+2018 Mensa Select Certification
+2017 Meeples' Choice Nominee
+2017 Cardboard Republic Architect Laurel Winner
+2017 Golden Geek Best Family Game of the Year
+2017 Golden Geek Board Game of the Year Runner-up
+
+
+== Sequels and Azul series ==
+
+In late 2018, Plan B Games released a second title in the Azul line, Azul: Stained Glass of Sintra, which utilised the same tile-drafting mechanism, and required players to match vertical patterns on two sided stained-glass window panes on the player boards. A movement pawn was added which placed additional restrictions on which pane a player could fill on any given turn, adding to the game's complexity.
+A third game in the series, Azul: Summer Pavilion, was released in late 2019. It again utilised the same tile-drafting mechanism but introduced a wild colour which changed from round to round, and saw players collecting diamond-shaped tiles to create star patterns. Leah Williams from Kotaku complimented the components, strategy, accessibility, and engagement, but critiqued the scalability for party settings.
+A fourth game, Azul: Queen's Garden, was released in 2022. Diverging the most from its predecessors, it featured a heavily modified variant of the original tile-drafting mechanism, and significantly increased the complexity of the pattern matching – with hexagonal tiles now having combinations of colours and symbols which could be separately matched for points. A review from Lautapeliopas praised the sequel's replayability, charm, and components, despite criticising the theme and interaction.
+A fifth title, Azul Duel, was released in 2025. Designed specifically for two players, it featured the similar pattern building to the original game, but with additional tactical options during the tile draft.
+There have been two expansions in the series: Azul: Crystal Mosaic, an expansion to the original game; and Azul: Glazed Pavilion, an expansion to Summer Pavilion. A limited edition confectionary-themed reskin of the original game called Azul: Master Chocolatier was released in 2022, which includes special powers activated when taking pieces from the factory tiles. There is also the stand-alone game 5211: Azul, which rethemed the abstract card game 5211 into the style of the original Azul.
+
+
+== References ==
+
+
+== External links ==
+Azul   at BoardGameGeek
+Dice Tower review of Azul
+I Play Red walkthrough of Azul

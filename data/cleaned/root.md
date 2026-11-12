@@ -1,0 +1,46 @@
+# Root
+
+## Game Specifications and Overview
+### Quick Rules & Player Metadata
+- **Game Title:** Root
+- **BGG ID:** N/A
+- **Year Published:** N/A
+- **Player Count:** N/A to N/A players
+- **Playing Time:** N/A–N/A minutes
+- **Recommended Age:** N/A+
+- **Summary:** Tabletop strategy board game.
+
+### Overview and Concept
+Root: A Game of Woodland Might and Right is a 2018 asymmetric strategy wargame board game designed by Cole Wehrle, illustrated by Kyle Ferrin, and published by Leder Games. Players compete for the most victory points through moving and battling using various factions with unique abilities. Upon its release, Root received positive reviews, and was followed by several expansions. A digital version, developed by Dire Wolf Digital, was released in 2020.
+
+## Gameplay
+In Root, 2-6 players compete in an asymmetric strategy wargame to control a forest, that is made up of clearings. Each clearing has a suit, and in the base game these are Bunny (yellow), fox (red), and mouse (orange). The cards used in the game correspond to these suits, alongside an additional bird (blue) suit that is seen as wild. The game is asymmetric, with each player controlling a different faction with different rules. There is a common set of rules for movement, card suits and usage, crafting, battling, and 'clearing rule'.
+Each faction in Root has its own mechanics. Whilst the two methods of victory are the same for each faction (the first to score 30 points or to win via a 'dominance card'), each factions rules, interactions, and scoring abilities are different from one another. Often times, factions rules change the 'golden rules' of the game that are common to all factions, and the Homeland Expansion introduced factions that alter the rules of other factions and also add additional suits for cards and clearings. 
+
+Faction mechanics
+The base game includes four factions: the Marquise de Cat, the Eyrie Dynasties, the Woodland Alliance, and the Vagabond. Further expansions to the game have added several further factions. All factions, as per rules introduced with the 'Advanced Setup' are split into two types: Militant factions, which are seen as having greater board presence, and Insurgent factions, which are usually limited in there ability to control the board when compared to militant factions. 
+Broadly speaking, each faction will have a combination of pieces, which can include warriors, tokens, buildings, cards, and unique items to that faction. In turn, each player follows the instructions for their faction through three stages as explained on their faction board: Birdsong, Daylight, and Evening. 
+Optional Gameplay Additions
+Expansions to Root have added additional gameplay elements that can alter how the game is played. This has consisted of new maps, landmarks (smaller game pieces that add or change interactions in certain clearings), and hirelings (small factions based on the main factions with their own rules that can be used and controlled by players alongside their main factions). 
+Expansions have also added 'bots' to the game, with their own set of rules called 'The Law of Rootbotics'. This allows for players to control an automated version of a faction with predetermined moves based on several factors the players calculate on the bots term. The addition of bots to the game means that Root can be played single-player, but printings of game expansions post-bots still list the player count as 2-6.
+
+## Reception
+Root received critical success upon its release. Reviewing for Ars Technica, Charlie Theel praised the game's visuals and highlighted its strategic depth and asymmetrical factions. He described the Eyrie's design of adding decrees as a "fascinating and one of the most rewarding factions" that was "beset with challenges", the Marquise de Cat as "the most straightforward" but "deceptive", and considered the Woodland Alliance to be "a true guerilla force", with its power of destroying enemies to be "explosive and extremely gratifying". Theel concluded that the game offered "astounding depth" due to its "deep asymmetry" and "extended exploration". Jonathan Bolding from GamesRadar stated that it was "one of the best board games", praising the components, the accessible combat system, and "compelling" asymmetry, but commented negatively on the difficulty for new players. Similarly, Tom Mendelsohn commended the strategy, strategy depth, and "whimsical exterior". In a 2017 preview of the game, Destructoid commented favourably on the game's artwork; especially the contrast between cartoon animals and the mature themes of the game. Dicebreaker also listed Root as one of the best board games, describing the "absolutely adorable" artwork and balanced powers of the factions. In 2022, The New York Times named it one of the four best strategy board games alongside Brass: Birmingham, Ark Nova, and Lost Ruins of Arnak, praising its "unique ecosystem of conflicting and contrasting goals, powers, and win conditions" but noting that it was "an intimidating game for newbies". Root still receives positive reviews as it releases new expansions in 2026.
+Root also received numerous awards, including the 2018 Golden Geek Board Game of the Year award, the 2019 Origins Awards for Game of the Year, Best Board Game and Fan Favourite Board Game, and the American Tabletop Awards Complex Game award and the Spiel Portugal Jogo do Ano. It was also nominated for the 2020 As d'Or Expert award.
+
+## Expansions
+
+## Additional content
+
+### The Role Playing Game
+In 2021, Magpie Games released tabletop role-playing game Root: The Roleplaying Game. It uses the Powered by the Apocalypse design philosophy. The entire adventuring party plays as Vagabonds. Charlie Hall for Polygon recommended it for fans of "swashbuckling adventure" and "high-stakes political theater." It won the 2022 Silver ENNIE Award for "Best Game" and was also nominated for "Product of the Year."
+
+### Digital edition
+Root: Digital Edition was released in September 2020 by Dire Wolf on the PC, iOS and Android platforms, followed by a Nintendo Switch version in November 2021. The PC version was praised by Jason Ornleas from GamingTrend, who praised the tutorial, aesthetics, soundtrack and strategy, but criticised the quickness of the AI turns and the lack of an undo button. In their list of the best board games of 2020, Vulture named the digital version of Root as the best board game app, complimenting the animations, AI, and in-game tutorial. Theel from Polygon also recommended the Nintendo Switch adaptation, praised the addition of new modes, and concluded that it "accomplishes the unenviable task of bringing its machinations to the screen", but critiqued the lack of group dynamics.
+In recent updates, the game has addressed many of critiques, adding an undo button and challenges that can be played in the solo game mode. The digital edition also has DLC equivalents to the physical expansions. Additional challenges for the solo game mode and achievements are included with each DLC.
+
+### Woodland War Machine Podcast
+People at Good Time Society started a podcast exclusively about ROOT in February 2021. The three hosts have talked about how to play each faction, tips to sabotage opponent's factions, and general ROOT news within the Woodland community. They have had guests on like Kyle Frost, Lord of the Board, and the designer Cole Weherly.
+
+### Localization
+In partnership with publishers in other countries, Root has been translated to Spanish, Portuguese, Italian, German, Czech, Polish, Hungarian, Ukrainian, Russian, Chinese, Korean, and Japanese language editions.

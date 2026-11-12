@@ -1,0 +1,28 @@
+Spirit Island is a euro-style co-operative strategy board game designed by R. Eric Reuss and published by Greater than Games in 2017. Digital versions have been released for PC, iOS, and Android.
+In the game, players take the role of spirits on an island and win by driving off colonizing invaders.
+
+
+== History ==
+Reuss designed Spirit Island in response to other board games in which players take the role of colonizers. The Invader game pieces were made white deliberately in Spirit Island to highlight that light colors do not always imply 'good'.
+The game has four expansions, Branch & Claw, Jagged Earth, Feather and Flame, and Nature Incarnate (the last released in 2023). Both the base game and several expansions were funded via Kickstarter, while Nature Incarnate was funded via BackerKit. A multi-platform digital version of the game, first announced in 2018, was released in 2020. The game was also released on iOS and Android devices. The mobile versions have a "free to learn" version, which costs no money and enables access to a tutorial game with four spirits available to play. A new version of the game, titled Horizons of Spirit Island was released in 2022. While Horizons contains a subset of the mechanics as the full game, it contains fewer, simpler, game pieces which are cheaper to produce. Additionally, the spirits included with Horizons are intended to be easier for new players to learn.
+Greater than Games suspended all work in April 2025 and scaled back their team due to new U.S. import taxes. In April 2026, Handelabra Games, their partner which handled their digital versions of their boardgames, bought out Greater Than Games and returned control to the owners, with a few veteran team members returning. 
+
+
+== Gameplay ==
+In Spirit Island, players take the role of Spirits on an island. They must drive off the colonizing Invaders, who grow their presence on the island, including founding Towns and Cities, over the course of a game. The core game can be played by 1–4 players, and the Jagged Earth expansion adds support for up to 6 players. Over the course of the game, players unlock more abilities for their Spirit and additional Power cards, making them stronger and more capable of pushing back the Invaders. The Invaders' actions are controlled by a deck of cards that dictates the areas of the board they Explore, Build, and Ravage. Any tiles that the players aren't able to protect against the Ravage action results in a Blight token being added to it.
+To win the game, players use their Spirits' powers to clear out the Invaders and their settlements, while also generating Fear, which eases the criteria to win. The players lose if the Invaders add too many Blight tokens to the board, if one of the Spirits has all its Presence removed from the board, or if the deck of Invader actions runs out.
+The game contains an array of Spirits – eight in the base game, two in the Branch & Claw expansion, ten in the Jagged Earth expansion, eight in Nature Incarnate, and two "Promo Packs" with two additional Spirits in each (The content from both "Promo Packs" was released in 2022 as the third expansion Feather and Flame) – for players to choose from. Players can select any combination of Spirits, and each has unique abilities and ways of being played.
+
+
+== Reception ==
+Ars Technica included the game in their list of best board games of 2017. In their full review they described the game as complex and deep, calling the array of choices a "wonderfully thinky puzzle," though highlighting the potential for analysis paralysis. They praised the progression of the spirits' abilities over the game, and concluded that it was an "easy recommendation". Kotaku commented positively on the game's complexity and ability to build tension, but found the game was hard to start, requiring patience to fully understand.
+In their list of best fantasy board games in 2020, CNET named Spirit Island the best complex cooperative game of the year, and PC Gamer lists it in their best cooperative board games. In an article for The Atlantic, Luke Wilkie stated that Spirit Island is "one of the few flat-out anti-colonial games on the market".
+From March to June 2022, the game was ranked as high as number 9 on BoardGameGeek's list of highest-rated games. As of May 2025, it ranks at number 10.
+Spirit Island has received high rankings as a solo game. It was rated #1 in the BoardGameGeek 2024 People's Choice Top 200 Solo Games, the third year in a row it took the top spot.
+
+
+== References ==
+
+
+== External links ==
+Spirit Island   at BoardGameGeek

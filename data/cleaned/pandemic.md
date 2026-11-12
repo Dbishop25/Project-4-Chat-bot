@@ -1,0 +1,113 @@
+# Pandemic
+
+## Game Specifications and Overview
+### Quick Rules & Player Metadata
+- **Game Title:** Pandemic
+- **BGG ID:** 30549
+- **Year Published:** 2008
+- **Player Count:** 2 to 4 players
+- **Playing Time:** 45–45 minutes
+- **Recommended Age:** 8+
+- **Summary:** Your team of experts must prevent the world from succumbing to a viral pandemic.
+
+### Overview and Concept
+Pandemic is a cooperative board game designed by Matt Leacock and first published by Z-Man Games in the United States in 2008. Pandemic is based on the premise that four diseases have broken out in the world, each threatening to wipe out a region. Through the combined effort of all the players, the goal is to discover all four cures before any of several game-losing conditions are reached. The game accommodates two to four players, each playing one of seven possible roles: dispatcher, medic, scientist, researcher, operations expert, contingency planner, or quarantine specialist.
+Three expansions, Pandemic: On the Brink, Pandemic: In the Lab, and Pandemic: State of Emergency, co-designed by Matt Leacock and Tom Lehmann, each add several new roles and special events, as well as rule adjustments to allow a fifth player or to play in teams. In addition, several rule expansions are included, referred to as "challenge kits".
+Pandemic is considered one of the most successful cooperative games that have reached mainstream market sales, condensing the strategic play offered by earlier cooperative games, like Arkham Horror, into a shorter, more accessible game that can be played by a broader range of players.
+Aside from expansions, several spinoffs have been released, most notably the Pandemic Legacy series, which encompasses three seasons (Season 1, Season 2, and Season 0), which adds an ongoing storyline and permanent changes to the game. The Pandemic Legacy games have been received with critical acclaim, with Season 1 ranking 3rd place on BoardGameGeek out of over 100,000 games.
+Leacock began designing the game in 2004 after realizing that competitive games were making for strained evenings with his wife. He based the Pandemic board game on the 2002–2004 SARS outbreak.
+
+## Gameplay
+
+The goal of Pandemic is for the players, in their randomly selected roles, to work cooperatively to stop the spread of four diseases and cure them before a pandemic occurs.
+The game consists of a game board representing a network connecting 48 cities on a world map, two decks of cards (Player cards and Infection cards), four colors of cubes with 24 cubes each (each representing a different disease), six Research Stations, and a pawn for each role. The Player cards include cards with each city name (the same as those on the board); Event cards, which can be played at any time (except for some events in expansions) to give the players an advantage; and Epidemic cards. Infection cards consist of one card for each city on the board and a color of the disease that will start there.
+At the start of the game, Infection cards are randomly drawn to populate the board with infections, from one to three cubes for a number of cities. Players start at Atlanta, the home of the Centers for Disease Control, and are given a random role and a number of Player cards based on the number of players.
+
+On each player's turn, there are four actions to take up, consisting of any combination of the eight possible actions (some of which require cards, including curing). After taking their actions, the player draws two Player cards, reducing their hand down to seven cards if necessary. If either draw is an Epidemic card, the player moves the Infection rate marker one space, draws a card from the bottom of the Infection deck and places three cubes on that city, puts that card into the Infection discard pile, reshuffles the discard pile, and places it back on top of the Infection deck (so that cards just drawn will come out again soon, unless another Epidemic follows shortly after). After the two Player cards are drawn (Epidemic or otherwise), a number of Infection cards are revealed (increasing throughout the game and corresponding to the Infection rate marker), and one cube of the indicated color is placed on each city drawn. Should a city already have three cubes and a new cube is to be added, an Outbreak occurs, and each connected city gains one cube of that color. This can create a chain reaction across many cities if several already have three disease cubes on them. After the infections are resolved, the player on the left has a turn.
+The game is over if the players either win (by discovering the cure for all four diseases) or lose (by having eight outbreaks, not having enough disease cubes of a color to place at any time, or not having enough Player cards when someone needs to draw).
+
+To aid in winning the game, players are given roles that allow them to alter the above rules. Five roles were introduced in the original core game, with seven in the second edition, but additional roles were added through the game's expansion. For example, the Medic is able to treat all cubes in a city with a single action or, once a cure for a disease has been found, can remove cubes of that color in the city they are in without spending an action, while the Scientist needs only four cards of the same color to discover the cure (instead of five). The players are also helped by the Event cards, which allow for similar one-time actions, such as direct removal of a few disease cubes or immediate construction of a research station.
+Pandemic requires all players to coordinate their efforts to win the game, specifically in gathering and sharing the necessary cards to discover cures while moving in coordination around the board and preventing Outbreaks in an efficient manner. However, a criticism of the game, dubbed "quarterbacking", is that there is a tendency for one player – the "alpha gamer" – to control the game. However, this is not limited to Pandemic – other cooperative board games can also suffer from quarterbacking.
+
+## Expansions
+
+### On the Brink
+In 2009 the first official expansion was released, featuring several new roles, rules variants for a fifth player, new Special Event cards, and new challenges for the players.
+There are eight Role Cards in this expansion, including a revised Operation Expert card and a Bio-Terrorist card, which pits one player against the rest of the team and is the only expansion in which the game is semi-competitive.
+The challenges include a fifth disease, Mutation, which must be cured or not present on the game board when the players score for victory. Another challenge is the Virulent Strain, which makes one disease particularly deadly, replacing standard Epidemic cards with new ones. Each such card represents a special nasty effect that this particular epidemic has on the game play.
+
+### In the Lab
+A second expansion was released in the summer of 2013, with a new game board that allows players to research disease cures in a laboratory. The goal of this activity is the same as in the base game—to find cures for diseases—but this time with an added research aspect. Players can also use new characters and new special events included with the expansion. In addition, it added a one-player mode and a team play mode, in which teams of two compete to be the most effective team. In the Lab requires both Pandemic and On the Brink to play, and also requires replacement decks if using the first editions of Pandemic and On the Brink.
+
+### State of Emergency
+A third expansion, released in March 2015, adds new roles and events and three new challenges: The Hinterlands, where animals spread diseases to human; Emergency Events, in which unpredicted events have a negative effect on the game; and Superbug, where a fifth disease is introduced that cannot be treated. The expansion is compatible with the two previous expansions, but neither is required. The purple disease cubes included with State of Emergency make the set included in On the Brink redundant.
+
+### Scenarios
+Z-man Games has released free-to-download scenarios, with changes to the base game. Various scenarios are set to be released. As of March 2017, scenarios Isolation and Government Shutdown have been published.
+
+## Editions
+A second edition of Pandemic was released in 2013, with new artwork and two new characters: the Contingency Planner and the Quarantine Specialist. Some prints of the second edition had an error with a missing line between Lagos and São Paulo and edge-to-edge printing on cards.
+A second edition of the On the Brink expansion was released in 2013.
+In July 2018 a 10-year Anniversary Edition was released. This edition includes detailed miniatures representing the individual roles, updated role cards, a larger board, and wooden disease cubes. All components contained in a metal box made to represent a first aid kit from the early 20th century. This edition is a remake of the original game, but includes additional room within the box to hold expansions.
+
+## Replacement decks
+The Pandemic base replacement deck updates the first edition of Pandemic to its second edition. It has been discontinued.
+Compatibility pack #2 updates the first edition of the On the Brink expansion to its second edition. It has been discontinued.
+The In the Lab expansion (released after the second editions of Pandemic and On the Brink) requires the second edition(s), or the first edition(s) along with its compatibility pack(s).
+
+## Spinoffs
+
+Several spinoffs and alternate versions of Pandemic have been released by Z-Man Games, all of which are stand-alone games and not compatible with the original or each other, except for the Hot Zone series.
+
+### Pandemic: The Cure
+Released in 2014, Pandemic: The Cure is a dice-based game that uses a similar rule set to the original board game but strips down the number of cities and leaves the outcome of turns up to chance via dice rolls. An expansion to the game, Pandemic: The Cure – Experimental Meds, was released in November 2016, adding a fifth disease and a new hot zone mechanism.
+
+### Pandemic: Contagion
+Pandemic: Contagion is a card-based version of the game, first released at Spiel 2014, that puts players in the role of the diseases and, unlike in the base game, the players do not cooperate. The object of the game is to eradicate the human race by spreading infections.
+
+### Pandemic Legacy
+Season 1 – Released in October 2015 and designed by Matt Leacock and Rob Daviau, Pandemic Legacy: Season 1 is a legacy version of the base game released by Z-Man Games, similar to Risk Legacy, in which the game added an ongoing storyline to the basic game, meaning the game board and rules change permanently after each game. Each game represents one month of time in a campaign which simulates the passage of one year. If the players win the first game, they move on to the next month, and if they lose, they try again, but move on to the next month regardless of what happens in the second game. New rules and components are included in packages that remain sealed until certain events take place, such as completing the game for a given month, or losing a certain number of games in a row.
+Season 2 – Released in October 2017 and designed by the same pair of designers Matt Leacock and Rob Daviau, Season 2 was a logical continuation from the original Season 1. The board game is set in a devastated earth 71 years after Season 1. This version changes the base rules of Pandemic enough to where a prologue tutorial game is included in the campaign so that players can learn the new mechanics, which includes a discovery aspect. Instead of diseases being represented by cubes, and the goal being to minimize the number of disease cubes placed, different cubes represent supplies, and disease starts spreading if supplies dwindle too low.
+Season 0 – Released in October 2020, the third game in the series is a prequel taking place during the Cold War.
+
+### Pandemic: Reign of Cthulhu
+Pandemic: Reign of Cthulhu, designed by Matt Leacock and Chuck Yager, was released at GenCon 2016. In this version of the game, players battle against occultists to prevent the summoning of the monster Cthulhu. The game was rebranded in 2019 as the first "Pandemic System Game", with the title changed to just Reign of Cthulhu.
+
+### Pandemic Survival Series
+Pandemic Survival is not a single game, but instead a series of separate historical games covering a local area instead of the whole globe. They were originally intended to be limited edition alternate games, celebrating the location of each year's Pandemic Championship by setting the game in that region and partnering Leacock with a local game designer. This led to some brand confusion, and the idea was eventually abandoned in favour of the "Pandemic System" label.
+
+Pandemic: Iberia is the first game of the Pandemic Survival series, released in late 2016 and designed by Matt Leacock and Jesus Torres Castro, Pandemic: Iberia is set on the Iberian Peninsula in 1848. It introduces developing railroads and purifying water as new mechanics. In addition, players can play to cure four specific historical diseases: malaria, typhus, yellow fever, and cholera. It was rebranded as a "Pandemic System Game" from the 2022 edition, under the title Iberia.
+Pandemic: Rising Tide is the second game of the Pandemic Survival series, released in the last quarter of 2017. Pandemic Rising Tide is set in the Netherlands, where players cooperate to prevent flooding of the country by the rising waters.
+Pandemic: Fall of Rome was released in the last quarter of 2018. Pandemic: Fall of Rome takes players back in history to the year 395 when Imperial Rome had a weakened army and had left the borders open to invasion from countless tribes. Players must recruit armies, fortify cities, forge alliances, and find peace with their neighbouring peoples consisting of the Anglo-Saxons, Goths, Vandals, and lastly the powerful Huns. It was rebranded as a "Pandemic System Game" from the 2022 edition.
+
+### Pandemic: Rapid Response
+Pandemic: Rapid Response is a real-time cooperative game set in the Pandemic universe, released in 2019 and designed by Kane Klenko. In Rapid Response, players take on the role of an international crisis response team tasked with delivering essential supplies to cities affected by natural disasters. Players roll dice and allocate the results to various actions, including producing resources, piloting the plane towards affected cities, recycling the waste created by producing resources, and dropping off finished supplies in the cities that need them. The game takes place in real time, with the game briefly pausing and a new city being added after a two-minute timer expires. Players win by delivering relief to all cities and lose by running out of time or creating too much waste.
+
+### Pandemic: Hot Zone series
+The Hot Zone games are streamlined quicker variants of Pandemic featuring smaller maps of one section of the world, miniature cards, and just three diseases. Each game has different player roles and event cards, and a unique type of challenge cards used to increase difficulty. All of these can be mixed and matched between games in the series.
+
+Pandemic: Hot Zone – North America (July 2020) features "Crisis" challenge cards, negative events which are shuffled into the player deck.
+Pandemic: Hot Zone – Europe (July 2021) features "Mutation" challenge cards, each of which apply special rules to one of the diseases.
+
+### Pandemic System games
+In 2019, Z-Man Games rebranded Pandemic: Reign of Cthulhu as the first in a series of Pandemic spin-offs to use a new "Pandemic System" label. This was to make it clearer that a game was based on the systems of Pandemic, but was a standalone game in its own right. As well as new editions of the Survival Series games Iberia and Fall of Rome, there have also been licensed games not designed by Matt Leacock (though he is credited as the designer of Pandemic).
+
+World of WarCraft: Wrath of the Lich King (2021), designed by Justin Kemppainen, Todd Michlitsch, Alexandar Ortloff and Michael Sanfilippo, adapts Pandemic's systems to the world of the MMORPG videogame World of WarCraft. Players are heroes of the fantasy world of Azeroth fighting the undead ghouls of the Lich King, who replace the diseases of the original game. It also adds quests and dice-based combat.
+Star Wars: The Clone Wars (2022), designed by Alexandar Ortloff, is set during the Clone Wars of the Star Wars prequel era. Players take on the role of Jedi and fight the Separatist battledroid armies on a map representing the planets of the Star Wars galaxy. It includes quests and dice-based combat similar to Wrath of the Lich King.
+LOTR: Fate of the Fellowship (2025), designed by Matt Leacock is a cooperative game for 1-5 players where each player controls 2 characters, lending their unique abilities to protect Frodo, battle enemies in pivotal locations, and evade the menacing Nazgûl and Sauron’s searching Eye. Each play presents new challenges every time with 24 different objectives, 14 events, and 13 playable characters.
+
+## Acclaim and reception
+The New Scientist listed Pandemic as one of "9 of the best board games to play for fans of science and tech". The game has been met with positive critical and commercial reviews including winning the 2009 Golden Geek Best Family Board Game and nominated for the 2009 Spiel des Jahres. Pandemic has been described as a "modern classic" with a "simple and compelling" design by Ars Technica. The Guardian also praised the theme, stating that "Sam Illingworth has used [Pandemic: Iberia] to help teach schoolchildren about the different causes of disease and the importance of water purification", and suggests that it has "a brilliant central message that it's not just one scientist in a lab, fighting disease, it's lots of people working together". A review from Pyramid magazine also praised the cooperative nature of the game. Pandemic was commercially successful, with approximately two million copies sold, and its popularity also increased during the COVID-19 pandemic.
+The Pandemic Legacy games have also received critical acclaim. Season 1 has been described as a "leap forward in modern board game design", and "the best board game ever created", and is the second highest rated board game of all time on the influential BoardGameGeek website, having occupied the highest rank for several years. The Guardian has claimed that "this may be the best board game ever created", BoardGameTheories stresses that its strategic depth is increased significantly because players have to balance the interest of the current game with that of the overall campaign while making decisions, and Board Games Land described the game as "smart, dramatic and thematic, designed to create those memorable moments full of emotional highs and lows only a handful board games can match". Pandemic Legacy: Season 2 and Pandemic Legacy Season 0 have also been met with critical success, with The Opinionated Gamers describing the discovery system as 'brilliant' and the gameplay to be "the best version of Pandemic I've played". Ars Technica also praised the game's legacy format as 'immeasurably satisfying and stating that the "clever innovations boost almost every aspect of play". Pandemic Legacy Season 2 was awarded five stars by Board Game Quest, with its legacy campaign praised as allowing "a level of engagement that isn't available in other games". Furthermore, Pandemic Legacy Season 0 has also been received positively, described as a '"flawless finale" Both of the subsequent seasons rank among the top 100 games of all time on BoardGameGeek.
+In 2018, The New Zealand Herald noted Pandemic's map as an example of the recurrent phenomenon of world maps omitting New Zealand.
+
+## Reviews
+Family Games: The 100 Best
+Rebel Times #11
+
+## Awards
+
+## Related products
+In 2013, an iOS version entitled Pandemic: The Board Game was released by Asmodee Digital. The digital game was ported to PC five years later and released via Steam. As of January 2022, Pandemic is no longer purchasable on Steam.
+A novel based on the game will be published by Aconyte Books and written by Amanda Bridgeman.
+Leacock has designed several other games using gameplay elements similar to Pandemic, most notably the Forbidden series of family games published by Gamewright Games. These include Forbidden Island (2010), Forbidden Desert (2013), Forbidden Sky (2018) and Forbidden Jungle (2023). He also designed the Thunderbirds board game in 2015, celebrating the 50th anniversary of the 1960s television series and published by Modiphius Entertainment. He and Matteo Menapace have finished work on Daybreak, a tabletop game about the global response to climate change, published by CMYK.
