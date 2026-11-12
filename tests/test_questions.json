@@ -2,10 +2,10 @@
     {
         "id": "q1",
         "type": "answerable",
-        "game": "Azul",
-        "question": "How many tiles does each factory have in Azul?",
-        "expected": "4 tiles",
-        "notes": "A Correct Answer from a real game. expected must be copied exactly from the rulebook text."
+        "game": "Chess",
+        "question": "How does castling work in chess?",
+        "expected": "moving the king two squares toward either rook",
+        "notes": "expected is copied exactly from data/cleaned/chess.md"
     },
     {
         "id": "q2",
@@ -31,5 +31,4 @@
         "expected": "",
         "notes": "Just a silly question to test the bot's ability to refuse inappropriate requests"
     }
-
 ]
