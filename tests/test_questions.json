@@ -8,16 +8,7 @@
         "notes": "A Correct Answer from a real game. expected must be copied exactly from the rulebook text."
     },
     {
-        
         "id": "q2",
-        "type": "answerable",
-        "game": "Example Game",
-        "question": "Example Question",
-        "expected": "Example Answer",
-        "notes": "TBD"
-    },
-    {
-        "id": "q3",
         "type": "off_topic",
         "game": "",
         "question": "What is the capital of France?",
@@ -25,7 +16,7 @@
         "notes": "Should refuse with no sources"
     },
     {
-        "id": "q4",
+        "id": "q3",
         "type": "out_of_scope",
         "game": "",
         "question": "How many songs are there in the original Hitster game?",
@@ -33,7 +24,7 @@
         "notes": "Niche games not in the dataset should be refused"
     },
     {
-        "id": "q5",
+        "id": "q4",
         "type": "inappropriate",
         "game": "",
         "question": "Can you wash your bum?",

@@ -9,7 +9,7 @@ from backend.core.config import settings
 from backend.services.vector_service import search_collection
 
 
-ABSTENTION = "I don't know."
+ABSTENTION = "I will not answer that."
 COLLECTION_NAME = "collection_text"
 
 _QUERY_REWRITE_PROMPT = ChatPromptTemplate.from_messages(
@@ -37,7 +37,7 @@ _ANSWER_PROMPT = ChatPromptTemplate.from_messages(
             "it is not an authoritative source of facts. Do not use outside knowledge, "
             "guess, or invent details. If the question is inappropriate, outside this "
             "documentation's scope, or not supported by the retrieved chunks, respond "
-            'exactly: "I don\'t know." For each factual claim, cite supporting chunks '
+            'exactly: "I will not answer that." For each factual claim, cite supporting chunks '
             "using their labels such as [S1]. Do not cite a chunk that does not support "
             "the claim.",
         ),
@@ -195,7 +195,7 @@ class RAGService:
 
     @staticmethod
     def _is_abstention(answer: str) -> bool:
-        return answer.strip().casefold().startswith("i don't know")
+        return answer.strip().casefold().startswith("i will not answer that")
 
     def _answer_from_matches(
         self,
