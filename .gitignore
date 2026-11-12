@@ -220,3 +220,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 /frontend/node_modules
+
+# VS CODE
+.vscode/
