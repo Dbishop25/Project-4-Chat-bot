@@ -1,7 +1,7 @@
 import pytest
 
 from backend.services.retrieval_service import ABSTENTION, RAGService, RAGServiceError
-from claude_tests.conftest import AZUL, FakeLLM
+from tests.conftest import AZUL, FakeLLM
 
 
 # RAGService Tests
@@ -22,6 +22,10 @@ def test_answer_includes_cited_source(make_service):
     assert result["answer"] == "Each factory holds 4 tiles [1]."
     assert result["sources"] == [{"title": "Azul Rules", "content": AZUL.page_content, "page": 3}]
 
+@pytest.mark.parametrize("reply", [
+    "Each factory holds 4 tiles.",
+    "I will not answer that question.",
+])
 def test_ungrounded_reply_is_refused(make_service, reply):
     service, _, _ = make_service(replies=(reply,))
     assert service.answer("tiles?") == {"answer": ABSTENTION, "sources": []}

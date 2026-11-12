@@ -5,7 +5,7 @@ import dotenv
 import pytest
 
 import backend.core.config as config
-from claude_tests.conftest import TEST_ENV
+from tests.conftest import TEST_ENV
 
 @pytest.fixture
 def reload_config(monkeypatch):
@@ -19,7 +19,7 @@ def test_settings_are_read_correctly(reload_config):
     settings = reload_config()
     assert settings.rag_top_k == 5
     assert settings.rag_relevance_threshold == 0.5
-    assert settings.frontend_origins == ["http://localhost:5173"]
+    assert settings.frontend_origins == ["http://localhost:5173", "http://127.0.0.1:5173"]
 
 def test_missing_setting_raises_clear_error(reload_config, monkeypatch):
     monkeypatch.delenv("RAG_TOP_K")
