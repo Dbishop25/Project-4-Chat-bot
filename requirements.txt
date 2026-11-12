@@ -5,5 +5,5 @@ langchain-chroma
 langchain-ollama
 langchain-text-splitters
 python-dotenv
-
+requests
 

@@ -1,0 +1,47 @@
+# Gloomhaven
+
+## Game Specifications and Overview
+### Quick Rules & Player Metadata
+- **Game Title:** Gloomhaven
+- **BGG ID:** N/A
+- **Year Published:** N/A
+- **Player Count:** N/A to N/A players
+- **Playing Time:** N/A–N/A minutes
+- **Recommended Age:** N/A+
+- **Summary:** Tabletop strategy board game.
+
+### Overview and Concept
+Gloomhaven is a cooperative board game for one to four players designed by Isaac Childres and published by Cephalofair Games in 2017. It is a campaign-based dungeon crawl game including a narrative campaign, 95 unique playable scenarios, and 17 playable classes. Since its introduction the game has been acclaimed by reviewers, and has been described as one of the best board games ever made.
+
+## Gameplay
+Gloomhaven is a fantasy-themed, campaign-based tactical skirmish game, in which players try to triumph in combat-based scenarios which scale in difficulty depending on the number of players. The game is cooperative and campaign driven, with one to four players working their way through a branching story consisting of 95 scenarios. The campaign develops in a legacy format, with stickers that are placed on the board and cards and sealed envelopes that are opened when certain criteria are met.
+While it has drawn comparisons to role-playing games such as Dungeons & Dragons and other dungeon crawl board games, Gloomhaven uses game mechanics similar to modern eurogames.
+Characters and monsters move about on hex tiles representing dungeons and cellars. Players simultaneously choose two cards to play each turn, each of which has a top and a bottom half, and choose the top half of one card and the bottom of the other to allow their characters to take actions such as moving, healing and attacking monsters. Randomization is not provided by dice, as is usually the case with such games, but is handled by a deck of cards, called the "attack modifier deck". As the campaign progresses, characters can increase in power, gaining new abilities and improving the cards in their attack modifier decks.
+
+## Development and release
+Gloomhaven was created by Isaac Childres with illustrations provided by Alexandr Elichev, Josh T. McDowell, and Alvaro Nebot. Childres was motivated to start creating Gloomhaven in 2013, and focused on producing in 2015. He credited multiple fantasy movies and films for inspiration for Gloomhaven such as Final Fantasy, Diablo, Willow, and Labyrinth with Dungeons and Dragons being the main inspiration.
+The game was originally sold via a 2015 Kickstarter campaign which raised $386,104 from 4,904 backers. After strong early reviews, a second Kickstarter campaign was launched on April 4, 2017, and delivered in November 2017 which raised about $4 million from over 40,000 backers. The game was released shortly after that to retail for a suggested price of $140.
+
+### Expansions and alternate editions
+
+Gloomhaven: Forgotten Circles, the game's first expansion, was released in Q2 2019. It includes a new character class, the Aesther Diviner, 20 new scenarios primarily focused on that class, and new items and monsters. Its story is set after Gloomhaven's campaign.
+
+Gloomhaven: Jaws of the Lion, a smaller, standalone version of the game, which was released in July 2020, initially as a Target exclusive. Designed to appeal to more casual gaming fans, the story in this version is set before the events of the original Gloomhaven, and has players investigate a series of disappearances in the city. The game features 25 new scenarios, five of which comprise a tutorial designed to ease new players into the game. Some, but not all, of the game components are compatible with the basic Gloomhaven game. 
+Asmodee and Flaming Fowl Studios released a digital edition of Gloomhaven for Microsoft Windows, initially on July 17, 2019. The game was released for macOS on November 25, 2021. It was offered as an early access model, featuring a subset of the characters, and a single-player Adventure mode that uses procedural generation like a roguelike to create encounters. As of 2021, Asmodee and Flaming Fowl have added support for all 17 characters and the full set of 95 missions from the core board game, along with support for multiplayer.
+Gloomhaven: Grand Festival raised over $5 million on BackerKit.
+Gloomhaven: Buttons and Bugs, a miniature single-player exclusive version, was announced by Cephalophair on July 5, 2023.
+Zen Studios released a Gloomhaven pinball table for Pinball FX on December 7, 2023.
+Gloomhaven: Second Edition, was released in May 2025. In addition to introducing new scenarios, monsters, items, and events, the second edition revised many scenarios, classes, and other aspects of Gloomhaven based on feedback received from players, playtesters, and the community.
+
+## Reception
+Gloomhaven has received critical acclaim, culminating in the game reaching the No. 1 spot as the top-rated board game on leading website BoardGameGeek in 2017, where it stayed until February 2023. It also won six Golden Geek awards from the site: best overall game of 2017, best strategy game, best cooperative game, most innovative game, best solo game, and best thematic game. Gaming website Geek & Sundry described Gloomhaven as "a masterful design" and suggested "it belongs in a museum". Matt Thrower called it one of the best fantasy board games available, while noting that "Gloomhaven was the critical hit of the year." Ars Technica similarly praised the game's strategy, action system, gameplay and solitare mode. Games Radar awarded the game five stars and dubbed it as "the ultimate tabletop dungeon crawler", and Board Games Land has described the game as "truly a masterpiece". The game was also commercially successful, and sold approximately 120,000 copies as of August 2018.
+In a review of Gloomhaven in Black Gate, Jeff Stehman played the game with his wife and said "In short, our campaign so far has been a rich experience punctuated by moments of awesome. And many, many decisions."
+
+### Awards
+
+## Sequel
+
+In 2020, Frosthaven was launched as a standalone sequel sold initially via a Kickstarter campaign. The campaign raised almost $13 million from over 83,000 backers, making it most-funded campaign for a game on the platform, until it was surpassed by the Cosmere Roleplaying Game in August 2024. The game is set in a small northern outpost that mercenaries are struggling to protect. Childres changed several aspects of the game's story and setting to address cultural bias.
+Frosthaven was scheduled to ship for Kickstarter backers in September 2022.
+In an article for Smithsonian, freelance contributor James Palmer listed it as one of the best board games of 2022. He likened opening boxes over the course of the campaign as "a series of little Christmases", though he cautioned that the game's length was not for the "fainthearted".
+Both Frosthaven and the original Gloomhaven rank in the top 20 games on BoardGameGeek, based on user ratings of the games as of July 2026.
