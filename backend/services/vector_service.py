@@ -43,29 +43,9 @@ def search_collection(collection_name:str, query:str, k:int=5, relevance_thresho
 # To ingest documents (txt.) into chunks and store it into a collection.
 def ingest_text(collection_name:str, text:str, source_id:str):
 
-    text = text.strip()
 
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=300, # every 300 characters, make a new chunk
-        chunk_overlap=100, # chunks will overlap with each other by 100 chars (keeps context)
-        separators=["\n\n", "\n", ".", " "]
-    )
-
-    chunks = splitter.split_text(text)
-
-    print(chunks)
-    print("CHUNK LENGTH--------")
-    print(len(chunks))
-
-    docs = []
-
-    for i, chunk in enumerate(chunks):
-
-        chunk_id = f"{source_id}_chunk_{i}"
-
-        docs.append({"id":chunk_id, "text":chunk})
-
-    return ingest_json(collection_name, docs)
+    from .chunking_service import ingest_md
+    return ingest_md(collection_name)
 
 
 
