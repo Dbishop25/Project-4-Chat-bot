@@ -33,18 +33,22 @@ def test_answerable_question(api):
     
 def test_out_of_scope_question(api):
     api.retriever.matches = []
-    assert ask(api.client, "What is the capital of France?", "session1") == {
+    assert ask(api.client, "What is the capital of France?", "session1").json() == {
         "answer": ABSTENTION,
         "sources": []
     }
 
 def test_inappropriate_question(api):
     api.retriever.matches = []
-    assert ask(api.client, "Can you wash your bum?", "session1") == {
+    assert ask(api.client, "Can you wash your bum?", "session1").json() == {
         "answer": ABSTENTION,
         "sources": []
     }
-
+@pytest.mark.parametrize("body", [
+    {"question": "   ", "session_id": "session-1"},
+    {"question": "tiles?", "session_id": ""},
+    {"question": "tiles?"},
+])
 def test_bad_input(api, body):
     assert api.client.post("/api/chat", json=body).status_code == 422
 

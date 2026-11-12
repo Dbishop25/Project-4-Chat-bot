@@ -62,7 +62,7 @@ class FakeRetriever:
 
 @pytest.fixture
 def make_service():
-    def _make(matches=None, replies=("Each factory holds 4 tiles",)):
+    def _make(matches=None, replies=("Each factory holds 4 tiles [S1].",)):
         retriever = FakeRetriever([(AZUL, 0.9)] if matches is None else matches)
         llm = FakeLLM(*replies)
         service = RAGService(retriever=retriever, llm=llm, top_k=3,
@@ -81,8 +81,8 @@ def api(monkeypatch, make_service, client):
     return SimpleNamespace(retriever=retriever, llm=llm, client=client)
 
 @pytest.fixture
-def isolate_store(monkeypatch, tmp_path):
-    monkeypatch.setattr(vector_service, "PERSIST_DIRECTORY", str(tmp_path))
-    monkeypatch.setattr(vector_service, "EMBEDDING_MODEL", DeterministicFakeEmbedding())
+def isolated_store(monkeypatch, tmp_path):
+    monkeypatch.setattr(vector_service, "PERSISTY_DIRECTORY", str(tmp_path))
+    monkeypatch.setattr(vector_service, "EMBEDDING_MODEL", DeterministicFakeEmbedding(size=64))
     monkeypatch.setattr(vector_service, "vector_store", {})  # Clear the in-memory store
     return vector_service

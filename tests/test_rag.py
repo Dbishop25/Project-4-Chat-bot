@@ -22,6 +22,7 @@ def test_answer_includes_cited_source(make_service):
     assert result["answer"] == "Each factory holds 4 tiles [1]."
     assert result["sources"] == [{"title": "Azul Rules", "content": AZUL.page_content, "page": 3}]
 
+@pytest.mark.parametrize("reply", ["Each factory holds 4 tiles [S1].", "I don't know."])
 def test_ungrounded_reply_is_refused(make_service, reply):
     service, _, _ = make_service(replies=(reply,))
     assert service.answer("tiles?") == {"answer": ABSTENTION, "sources": []}
