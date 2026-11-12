@@ -124,7 +124,7 @@ function App() {
         <div className="side-spacer" />
         <div className="library-note">
           <span className="library-note-icon"><BookOpen size={16} /></span>
-          <div><b>Your game shelf</b><p>Answers grounded in your team&apos;s game guides.</p></div>
+          <div><b>Your game shelf</b><p>Answers grounded in the uploaded game guides.</p></div>
           <span className="library-indicator" />
         </div>
         <div className="side-status"><i /> READY TO SEARCH <span>BETA</span></div>
@@ -166,7 +166,7 @@ function App() {
                 ))}
               </div>
               <div className="grounded-note">
-                <span>✳</span> Answers are based on your team&apos;s uploaded game documentation.
+                <span>✳</span> Answers are based on the uploaded game documentation.
               </div>
             </div>
           ) : (
@@ -227,13 +227,13 @@ function App() {
               value={question}
               onChange={(event) => setQuestion(event.target.value)}
               onKeyDown={onInputKeyDown}
-              placeholder="Please specify the game you are prompting for, then ask your question…"
+              placeholder="Please specify the game you are prompting for when asking your question…"
               rows={2}
               aria-label="Specify the game and ask your question"
               disabled={loading}
             />
             <div className="composer-bottom">
-              <span><BookOpen size={14} /> Grounded in your uploaded docs</span>
+              <span><BookOpen size={14} /> Grounded in the uploaded docs</span>
               <small>ENTER TO SEND</small>
               <button
                 type="submit"
